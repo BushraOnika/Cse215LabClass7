@@ -8,14 +8,17 @@ class Account {
     }
 
     public Account(int accountNumber) {
+
         this.accountNumber = accountNumber;
     }
 
     public int getAccountNumber() {
+
         return accountNumber;
     }
 
     public double getBalance() {
+
         return balance;
     }
 
@@ -32,6 +35,7 @@ class Account {
 
     @Override
     public String toString() {
+
         return "A/C no: " + getAccountNumber() + ",\tBalance= $" + getBalance();
     }
 }
